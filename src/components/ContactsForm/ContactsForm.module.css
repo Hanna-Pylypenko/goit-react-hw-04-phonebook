@@ -1,0 +1,20 @@
+.contactsForm {
+  border: solid 1px black;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+.contactsForm label {
+  font-size: 25px;
+}
+.contactsForm input {
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.contactsForm button {
+  width: 100px;
+  padding: 5px;
+  font-size: 15px;
+}
