@@ -31,7 +31,8 @@ export const App = () => {
     );
     return filteredContacts;
   };
-  const onSubmitHandler = ({ name, number }) => {
+  const onSubmitHandler = (name, number) => {
+    console.log(name, number);
     let contactData = {
       id: nanoid(),
       name: name,
